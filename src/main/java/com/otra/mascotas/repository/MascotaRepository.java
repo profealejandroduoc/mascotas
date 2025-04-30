@@ -16,4 +16,9 @@ public class MascotaRepository {
         pets.add(mascota);
         return mascota;
     }
+
+    public List<Mascota> readAll()
+    {
+        return pets;
+    }
 }
